@@ -1,6 +1,17 @@
+//Configurando Estrutura
 terminal -> yarn init -y
-terminal -> yarn add react-dom
+terminal -> yarn add react react-dom
 terminal -> yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
 criar .bablerc e webpack.config.js
 criar src -> index.js
 atualiza scripts package.json
+
+//Utilizando webpack-dev-server
+//LIVE load
+terminal -> yarn add -D webpack-dev-server
+webpack.config -> ,
+  devServer: {
+    contentBase: path.join(__dirname, "public")
+  }
+package.json -> scripts -> "dev": "webpack-dev-server --mode development",
+criar index.js e importar bundle.js
