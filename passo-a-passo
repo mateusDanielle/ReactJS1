@@ -15,3 +15,7 @@ webpack.config -> ,
   }
 package.json -> scripts -> "dev": "webpack-dev-server --mode development",
 criar index.js e importar bundle.js
+
+//DefaultProps & PropTypes
+//tipagem dentro do código
+terminal -> yarn add prop-types
