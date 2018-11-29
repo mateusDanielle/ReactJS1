@@ -1,0 +1,6 @@
+terminal -> yarn init -y
+terminal -> yarn add react-dom
+terminal -> yarn add -D @babel/core @babel/preset-env @babel/preset-react babel-loader webpack webpack-cli
+criar .bablerc e webpack.config.js
+criar src -> index.js
+atualiza scripts package.json
