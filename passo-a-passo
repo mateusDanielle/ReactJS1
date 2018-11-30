@@ -19,3 +19,8 @@ criar index.js e importar bundle.js
 //DefaultProps & PropTypes
 //tipagem dentro do código
 terminal -> yarn add prop-types
+
+//Plugin class properties do Babel
+//plugin para user class properties dentro da class
+terminal -> yarn add -D @babel/plugin-proposal-class-properties
+babelrc -> "plugins": ["@babel/plugin-proposal-class-properties"]
