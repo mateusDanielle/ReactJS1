@@ -24,3 +24,23 @@ terminal -> yarn add prop-types
 //plugin para user class properties dentro da class
 terminal -> yarn add -D @babel/plugin-proposal-class-properties
 babelrc -> "plugins": ["@babel/plugin-proposal-class-properties"]
+
+//Estilos com SASS no ReactJS
+terminal -> yarn add style-loader css-loader -D
+webpack.config.js ->
+,
+      {
+        test: /\.css$/,
+        use: [{ loader: "style-loader" }, { loader: "css-loader" }]
+      }
+terminal -> yarn add sass-loader
+,
+      {
+        test: /\.scss$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" },
+          { loader: "sass-loader" }
+        ]
+      }
+terminal -> yarn add node-sass -D

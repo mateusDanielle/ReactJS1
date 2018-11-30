@@ -3,20 +3,22 @@ import { render } from "react-dom";
 
 import Button from "./Button";
 
+import "./style.scss";
+
 class App extends Component {
   state = {
     counter: 0
   };
 
-  componentDidMount() {}
+  //   componentDidMount() {}
 
-  shouldComponentUpdate(nextProps, nextState) {
-    return nextState.counter <= 10;
-  }
+  //   shouldComponentUpdate(nextProps, nextState) {
+  //     return nextState.counter <= 10;
+  //   }
 
-  componentDidUpdate(prevProps, prevState) {}
+  //   componentDidUpdate(prevProps, prevState) {}
 
-  componentWillUnmount() {}
+  //   componentWillUnmount() {}
 
   handleClick = () => {
     // this.setState({ counter: this.state.counter + 1 }, () => {
@@ -30,6 +32,7 @@ class App extends Component {
   render() {
     return (
       <Fragment>
+        {/* className e style */}
         <h1>Hello Rocketseat</h1>
         <h2>{this.state.counter}</h2>
         {/* <Button
