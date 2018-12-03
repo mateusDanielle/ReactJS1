@@ -14,7 +14,7 @@ webpack.config -> ,
     contentBase: path.join(__dirname, "public")
   }
 package.json -> scripts -> "dev": "webpack-dev-server --mode development",
-criar index.js e importar bundle.js
+criar index.html e importar bundle.js
 
 //DefaultProps & PropTypes
 //tipagem dentro do código
