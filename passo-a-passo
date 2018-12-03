@@ -45,7 +45,7 @@ terminal -> yarn add sass-loader
       }
 terminal -> yarn add node-sass -D
 
-//Configurando Prettier
+//Configurando ESLint
 terminal -> yarn add eslint -D , npx eslint --init -> 'Use a popular style guide' -> 'Airbnb' -> 'y' -> 'JSON' -> 'Y' -> remove package-lock.json -> yarn
 terminal -> yarn add babel-eslint -D
 .eslintrc.json =
